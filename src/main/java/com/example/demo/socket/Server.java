@@ -27,7 +27,7 @@ public class Server {
             //double length = dis.readDouble();
             System.out.println("服务器端收到的消息为：" + i);
             //double result = length * length;
-            String a ="好的，我已收到！";
+            String a ="好的，我已收到！谢谢你";
            // dos.writeDouble(a);
             dos.writeUTF(a);
             dos.flush();
